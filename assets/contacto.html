@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/css/estiloContacto.css" />
+    <link rel="icon" href="/Imagenes/Logo.png" />
+    <title>Contactanos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav__Bar">
+        <div class="brand__Name">Diolch</div>
+        <a href="#" class="toggle__Button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar__Links">
+          <ul>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/assets/menuProductos.html">Menu</a></li>
+            <li><a href="/assets/sobreNosotros.html">Nosotros</a></li>
+            <li><a href="/assets/contacto.html">Contactanos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="img__Fondo">
+      <div class="form__Container">
+        <form id="form__Content">
+          <h2>Contactanos</h2>
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" name="nombre" type="text" class="field" />
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="text" class="field" />
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" class="field"></textarea>
+          <div id="error"></div>
+          <input class="btn" type="submit" value="Enviar" />
+        </form>
+      </div>
+      <footer>
+        <div class="footer__Content">
+          <a href="#">
+            <img src="/Imagenes/Logo.png" alt="Logo de Diolch" />
+          </a>
+          <span>&copy; 2022 <b>Diolch</b> Todos los derechos reservados</span>
+        </div>
+      </footer>
+      <script src="/script.js"></script>
+      <script src="/scriptNav.js"></script>
+    </div>
+  </body>
+</html>
